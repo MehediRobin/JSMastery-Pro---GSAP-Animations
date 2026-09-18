@@ -1,0 +1,16 @@
+gsap.to(".box", {
+  opacity: 1,
+  rotation: 360,
+  background: "#ff6f61",
+  duration: 3,
+  delay: 0.1,
+  borderRadius: "50%",
+  scale: 1,
+  x: 200,
+  y: 200,
+  ease: "bounce",
+  repeat: -1,
+  yoyo: true,
+  repeatDelay: 1,
+  stagger: 1,
+});
